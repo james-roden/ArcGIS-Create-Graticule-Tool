@@ -11,7 +11,7 @@ try:
 
     def dms_to_dd(degrees, minutes, seconds):
         '''
-        Converts degrees, minutes or seconds into decimal degrees
+        Converts degrees, minutes, seconds into decimal degrees
         '''
         return degrees + (minutes/60.0) + (seconds/3600.0)
 
