@@ -1,5 +1,7 @@
 # ArcGIS: Create Graticule Tool
-Written by James Roden
+Written by James Matthew Roden
+
+ArcGIS tool that uses the current MXD dataview extent to create a graticule at a specified interval of degrees, minutes, seconds.
 
 BETA
 
