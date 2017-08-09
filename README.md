@@ -3,7 +3,7 @@
 
 An ArcGIS tool that uses the users current MXD dataview extent to create a graticule at a specified interval of their desired degrees, minutes, seconds.
 
-[DOWNLOAD](link)
+[DOWNLOAD](https://github.com/GISJMR/ArcGIS-Create-Graticule-Tool/raw/master/ArcGIS-Create-Graticule.zip)
 
 <div>
 <img style="float;" right src="https://github.com/GISJMR/ArcGIS_Create_Graticule_Tool/blob/master/imgs/Map.png" alt="Map" width="250" height="250">
