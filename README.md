@@ -12,10 +12,3 @@ An ArcGIS tool that uses the users current MXD dataview extent to create a grati
 </div>
 
 *(Left)Initial map extent. (Centre)15 minute (0° 15" 0') created graticule in WGS84 data frame. (Right)The same graticule in UTM36N data frame.*
-
-## Methodology
-* Extract extent, lower left, and upper right from MapDocument objects active data frame
-* Construct coordinate variables using previous step outputs for Fishnet tool
-* Run Fishnet tool to create grid
-* Run 2 codeblock functions to label each line either latitude or longitude, and include degrees and direction
-* Finally densify so there are enough intermediate vertices to allow graticule lines to 'curve' when projected
